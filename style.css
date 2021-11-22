@@ -13,6 +13,8 @@
     font-weight: 600;
     font-size:60px;
     text-align: center;
+    z-index: -1;
+    
     
 }
 #first{
@@ -162,7 +164,7 @@
 .next{
         width:90px;
         height:39px;
-        background-color:rgba(250, 191, 81, 0.87);
+        background-color:rgba(243, 46, 46, 0.87);
         border-radius: 9px;
         display: inline;
         position: absolute;
@@ -174,7 +176,7 @@
 .next1{
             width:90px;
             height:39px;
-            background-color:rgba(250, 191, 81, 0.87);
+            background-color:rgba(243, 44, 44, 0.829);
             border-radius: 9px;
             display: inline;
             position: absolute;
