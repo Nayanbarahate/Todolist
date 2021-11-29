@@ -197,36 +197,41 @@
         width: 56%;
         height: 100%;
 }
-.foreground {
-    display: block;
-    position: fixed;
-    margin-left: auto;
-    margin-right: auto;
-    top: 232px;
-    left: 410px;
-    border: 5px solid red;
-    border-radius: 20px;
-    background-color: white;
-    backdrop-filter: blur(2px)
-    align-items: center;
-    line-height: 70px;
-  }
-.newList {
-    text-align: center;
-    font-size: 30px;
-  } 
-.add{
-    width:84px;
-    height:43px;
-    background-color:red;
-        border-radius: 21px;
-        display: inline;
-        position: absolute;
-        bottom: -55px;
-        right:154px;
-        text-align: center;
-        color: white;
-        font-size: 19px;  }
-    
 
+.index2_box{
+    width:30rem;
+    height:15rem;
+    background-color: white;
+    border:2px solid red;
+    border-radius:1rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0.4rem 0.4rem 0.5rem 0.1rem rgb(211, 211, 211);
+    position: absolute;
+    bottom:10rem;
+    left:30rem;
 }
+.index2_box>p{
+    font-size:1.5rem;
+    color:red;
+}
+.index2_box>p~input[type=text]{
+    width:20rem;
+    height:2.5rem;
+    border:2px solid red;
+    border-radius:0.5rem;
+    margin:0.5rem 0 1rem 0;
+    box-shadow:0.1rem 0.1rem 0.3rem 0.09rem rgb(211, 211, 211);
+}
+.add_button{
+    width:6.5rem;
+    height:2.6rem;
+    background-color:red;
+    color: white;
+    border:0;
+    border-radius:1.2rem;
+    font-size:1.4rem;
+}
+
